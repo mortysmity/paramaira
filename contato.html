@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>ifuud - Seu dia mais doce</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/grid.css"/>
+    <link rel="stylesheet" href="css/responsivo.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animated.css"/>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="img/ifuud.jpg"/>    
+    
+</head>
+<body>
+        <div class="cabecalho">
+                <p>Rua Paulo Barbieri de Moura, 103 - Fortuna, Sapucaia do Sul - RS | Segunda a Sábado 06:30 - 19:30</p>        
+            </div>
+<header class="header-intro-contato">
+    <nav class="header-menu">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="item" href="index.html">Home</a>
+            <a class="item" href="conheca.html">Conheça</a>
+            <a class="item" href="doces.html">Doces</a>
+            <a class="item" href="galeria.html">Galeria</a>
+            <a class="item" href="contato.html">Contato</a>
+        </div>    
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        </nav>
+       <nav class="header-menu-desktop">
+        <ul class="menu-desktop">    
+            <li><a class="item" href="index.html">Home</a></li>
+            <li><a class="item" href="conheca.html">Conheça</a></li>
+            <li><a class="item" href="doces.html">Doces</a></li>
+            <li><a class="item" href="galeria.html">Galeria</a></li>
+            <li><a class="item" href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="redes-sociais">
+            <a href="#" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="#" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="#" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a>
+        </div>
+    <div class="nome-empresa-intro-contato">
+        <h2 class=" wow fadeInDown" data-wow-delay=".5s">Nosso</h2>
+        <h1 class=" wow fadeInDown" data-wow-delay="1s">Contato</h1>
+        <a class=" wow fadeInDown" data-wow-delay="1s" href="#">Solicite seu orçamento</a>
+    </div>
+    </header>
+        <section class="contato-bg">
+            <div class="central-bg">
+                <div class="form">
+        <form name="formContato" action="enviar.php" method="POST">
+            <p class="nome">
+                <span>Nome:</span><input type="text" name="nome" required="required">
+            </p>
+
+            <p class="email">
+                <span>E-mail:</span><input type="text" name="email" required="required">
+            </p>
+
+            <p class="telefone">
+                <span>Telefone:</span><input type="text" name="telefone" required="required">
+            </p>
+
+            <p class="msg">
+                <span>Mensagem:</span><textarea name="msg"></textarea>
+            </p>
+            <p class="btn">
+                <input type="submit" name="button" value="Enviar"><br>
+            </p>
+
+        </form>
+            <div class="infor-cont">
+            <div class="endereco-cont">
+                <span>Endereço</span>
+                <p>Rua Paulo Barbieri de Moura, 103 - Fortuna, Sapucaia do Sul - RS</p>
+                <p>Ao lado da UPA Central</p>
+                <span class="ver-maps"><a href="https://bit.ly/2FmehFp" target="_blank">VER NO MAPA<img src="img/Vector-min.png" alt="Seta Ver no mapa"></a></span>
+            </div>
+                <div class="sep">
+                </div>
+            <div class="email-tel">
+                <span>Email &amp; Telefone</span>
+                <p>ifuud@gmail.com</p>
+                <p>9 9115-1783<br><br>
+                     2202-8728
+                </p>
+            </div>
+                 <div class="sep">
+                </div>
+            <div class="horario-cont">
+                <span><img src="img/on-min.png" alt="Indicador de horarios"> Horário</span>
+                <p> Aberto segunda a sábado 6:30 - 19:30<br><br>
+                    Domingo e Feriado 11:00 - 18:00</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <footer class="rodape">
+            <div class="rodape-bg">
+                <div class="endereco">
+                    <h3>endereços</h3>
+                    <p>Rua Paulo Barbieri de Moura, 103 - Fortuna, Sapucaia do Sul - RS</p>
+                    <p>Ao lado da UPA Central</p>
+                </div>
+                <div class="contato">
+                    <h3>contato</h3>
+                    <p>ifuud@gmail.com</p>
+                    <p>9 9115-1783</p>
+                    <p> 2202-8728</p>
+    
+                </div>
+                <div class="horario">
+                    <h3>horario</h3>
+                    <p>Aberto segunda a sábado 6:30 - 19:30</p>
+                    <p>Domingo e Feriado 11:00 - 18:00</p>
+                </div>
+            <div class="novidades">
+                <h3>novidades</h3>
+                <input type="text" name="button" value="">
+                <a class="btn-rodape" href="#">Assine</a>
+            </div>
+        </div>
+    </footer>
+    <section class="rodape-final">
+        <p>Criado por Christopher</p>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script>
+        new WOW().init();
+    </script>
+    </body>
+</html>
